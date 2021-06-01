@@ -1,0 +1,207 @@
+.center, .box-propos, .box-projet {
+  left: 50%;
+  right: 45%;
+  transform: translate(-50%);
+}
+
+body {
+  background-color: black !important;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+  color: #FFF;
+}
+
+.menu {
+  height: 100vh;
+  width: 40px;
+  margin-left: 5% !important;
+}
+.menu #logo {
+  height: 41px;
+  width: 30px;
+}
+.menu ul {
+  height: 90%;
+  position: absolute;
+  top: 20%;
+  background-color: black;
+}
+.menu ul li {
+  list-style-type: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(-180deg);
+  opacity: 0.75;
+}
+.menu ul li a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu .links-nav {
+  align-items: end;
+  height: 100vh;
+}
+.menu .links-nav .links-image {
+  position: absolute;
+  background: black;
+  z-index: 1;
+  top: 0;
+  height: 60%;
+  padding-top: 1.5%;
+}
+.menu .links-nav .links-image h1 {
+  font-size: 60px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.menu .links-nav .links-social {
+  width: 20px;
+  position: absolute;
+  bottom: 4%;
+  background: black;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.menu .links-nav .links-social img {
+  cursor: pointer;
+}
+.menu .links-nav .links-social img:hover {
+  width: 30px !important;
+  height: 30px !important;
+  transition: width 0.2s ease-in-out;
+}
+.menu .links-nav #divisor1, .menu .links-nav .divisor {
+  position: relative;
+  left: 7px;
+  width: 1px;
+  height: 100vh;
+  background-color: rgba(26, 210, 144, 0.24);
+}
+.menu .links-nav .divisor {
+  height: 40px;
+}
+
+.links-mail {
+  position: fixed;
+  z-index: 1;
+  right: 2%;
+  top: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.links-mail .btn-cv {
+  float: right;
+  width: 230px;
+  letter-spacing: 1px;
+  height: 51px;
+  text-transform: uppercase;
+  margin-top: 4%;
+  border: 1px solid #1AD290;
+  border-radius: 30px 30px 30px;
+  padding: 12px 25px;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer !important;
+  transition: background 0.3s ease-in-out;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.background-black {
+  width: 100px;
+  height: 120px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  z-index: 1;
+}
+
+.divisor-mail {
+  position: relative;
+  width: 1px;
+  height: 100vh;
+  background-color: rgba(26, 210, 144, 0.24);
+}
+.divisor-mail a {
+  left: 0 !important;
+}
+
+#mail {
+  color: #1AD290;
+  text-decoration: none;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  background: black;
+  left: 2%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.box-competences {
+  position: absolute;
+  height: 100vh;
+  width: 80%;
+  top: 53.8%;
+  background-color: black;
+  left: 50%;
+  right: 45%;
+  transform: translate(-50%, -50%);
+}
+.box-competences #photoProfile {
+  height: 130px;
+  width: 130px;
+  border: solid;
+  position: absolute;
+  top: 10%;
+}
+.box-competences #line {
+  position: absolute;
+  top: 49%;
+  left: 47%;
+}
+.box-competences .bloc-btn {
+  position: absolute;
+  top: 80%;
+}
+.box-competences .bloc-btn .btn-taf {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  border-bottom: 3px solid #1AD290;
+  padding-bottom: 15px;
+}
+.box-competences .bloc-btn a {
+  background: #1AD290;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.box-competences .bloc-btn a svg {
+  height: 1rem;
+}
+
+.languages {
+  width: 33%;
+}
+
+.item {
+  width: 670px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
