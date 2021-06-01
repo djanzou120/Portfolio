@@ -16,7 +16,7 @@
             <input type="email" name="email" placeholder="ADRESSE EMAIL" class="form-control btn-form border-bottom-2 off-border contact_input" required>
         </div>
         <div class="mb-2">
-            <input type="tel" name="phone" placeholder="NUMERO DE TELEPHONE" class="form-control btn-form border-bottom-2 off-border contact_input">
+            <input type="tel" name="phone" maxlength="20" placeholder="NUMERO DE TELEPHONE" class="form-control btn-form border-bottom-2 off-border contact_input">
         </div>
         <div class="">
             <textarea class="form-control btn-form off-border contact_area" placeholder="MESSAGE" name="message" required></textarea>

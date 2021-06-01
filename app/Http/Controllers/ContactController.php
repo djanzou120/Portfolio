@@ -8,6 +8,7 @@ use App\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class ContactController extends Controller
 {
@@ -20,7 +21,7 @@ class ContactController extends Controller
         $contact = Contact::create($request->all());
 
         Mail::to(['junior.djanzou@dsmart.dev', 'djanzou120@yahoo.fr'])->send(new ContactMail($contact));
-
+        Alert::success('Success Title', 'Success Message');
         return json_encode(array('state' => 'success', 'msg' => 'Contact bien pris en compte.'));
     }
 }

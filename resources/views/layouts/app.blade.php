@@ -69,6 +69,9 @@
 
         <div id="container-principal" class="">
 
+            {{--     Sweet Alert      --}}
+            @include('sweetalert::alert')
+
             {{--      Toogle Menu for Mobile      --}}
             @include('components.toggle-menu.main')
 
@@ -151,6 +154,8 @@
             })
 
         </script>
+
+        @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
 
         <script type="text/javascript">
 

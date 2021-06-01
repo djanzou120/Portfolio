@@ -17,7 +17,7 @@ class CreateContactTable extends Migration
             $table->bigIncrements('id');
             $table->string('name', 120);
             $table->string('email', 140);
-            $table->string('phone', 20);
+            $table->string('phone', 20)->nullable(true);
             $table->text('message');
             $table->timestamps();
             $table->softDeletes();
