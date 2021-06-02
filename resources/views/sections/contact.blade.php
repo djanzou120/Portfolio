@@ -22,12 +22,18 @@
             <textarea class="form-control btn-form off-border contact_area" placeholder="MESSAGE" name="message" required></textarea>
         </div>
         <div class="btn-container">
-            <button type="submit" class="btn btn-contact">Envoyer votre message</button>
+            <button type="submit" class="btn btn-contact" id="btn-contact">Envoyer votre message</button>
         </div>
         @csrf
     </form>
 
-
 </section>
 
-<!--Fin box contact-->
+
+<div aria-live="polite" aria-atomic="true" class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+    <div class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-body">
+            <h6 class="text-center contact_text" id="back_msg"></h6>
+        </div>
+    </div>
+</div>

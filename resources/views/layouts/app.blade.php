@@ -98,6 +98,7 @@
                 @include('sections.contact')
 
             </div>
+
         </div>
 
         <!--Fin Section Centré-->
@@ -154,8 +155,7 @@
             })
 
         </script>
-
-        @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
+        <script src="{{asset('assets/js/contact.js')}}"></script>
 
         <script type="text/javascript">
 
