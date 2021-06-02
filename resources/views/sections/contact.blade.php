@@ -30,10 +30,10 @@
 </section>
 
 
-<div aria-live="polite" aria-atomic="true" class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
-    <div class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-body">
-            <h6 class="text-center contact_text" id="back_msg"></h6>
+<div aria-live="polite" aria-atomic="true" class="position-fixed end-0 p-3" style="z-index: 5; bottom: 30px">
+    <div class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" style="height: 4rem; margin-right: 3rem ;">
+        <div class="toast-body d-flex justify-content-center align-items-center">
+            <h5 class="text-center contact_text" id="back_msg"></h5>
         </div>
     </div>
 </div>
