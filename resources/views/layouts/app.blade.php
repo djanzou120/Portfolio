@@ -69,9 +69,6 @@
 
         <div id="container-principal" class="">
 
-            {{--     Sweet Alert      --}}
-            @include('sweetalert::alert')
-
             {{--      Toogle Menu for Mobile      --}}
             @include('components.toggle-menu.main')
 
