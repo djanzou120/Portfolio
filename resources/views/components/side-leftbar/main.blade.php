@@ -8,7 +8,7 @@
             <h1 id="djanzou">D.</h1>
 
             <ul class="points-nav p-0 bg-black m-0 d-flex flex-column justify-content-around pb-4">
-                <li id="competence" class="point-nav active"><a class="a-nav" href="#Competences">Competences</a></li>
+                <li id="competence" class="point-nav active"><a class="a-nav" href="#Competences">Acceuil</a></li>
                 <li class="point-nav"><a class="a-nav" href="#Apropos">À propos</a></li>
                 <li class="point-nav"><a class="a-nav" href="#Experience">Experience</a></li>
                 <li class="point-nav"><a class="a-nav" href="#Contact">Contact</a></li>

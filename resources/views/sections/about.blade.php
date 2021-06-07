@@ -1,5 +1,5 @@
 <!--Section propos-->
-<section id="Apropos" class="box-propos d-flex justify-content-center align-items-center flex-column all_section">
+<section id="Apropos" class="box-propos d-flex justify-content-center align-items-center flex-column all_section section2">
     <div class="wrapper-propos d-flex justify-content-center align-items-center flex-column">
         <h1 class="title-propos">
             A PROPOS DE MOI

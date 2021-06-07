@@ -1,5 +1,5 @@
 <!--box contact-->
-<section id="Contact" class="box-propos d-flex justify-content-center align-items-center flex-column all_section">
+<section id="Contact" class="box-propos d-flex justify-content-center align-items-center flex-column all_section section4">
 
     <h1 class="contact_title">
         ME CONTACTER

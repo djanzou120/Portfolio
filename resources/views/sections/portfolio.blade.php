@@ -1,5 +1,5 @@
 <!--box experience-->
-<section id="Experience" class="box-projet d-flex justify-content-around align-items-center flex-column all_section">
+<section id="Experience" class="box-projet d-flex justify-content-around align-items-center flex-column all_section section3">
     <h1 style="position: absolute; top: 10%; font-size: 33px !important;">
         MES PROJETS
     </h1>

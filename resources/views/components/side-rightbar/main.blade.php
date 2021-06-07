@@ -10,7 +10,7 @@
         </div>
 
         <a class="py-5 point-mail" id="mail">
-            djanzoujunior@gmail.com
+            hello@dsmart.dev
         </a>
 
     </div>

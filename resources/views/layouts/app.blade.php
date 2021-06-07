@@ -9,23 +9,25 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="DJANZOU Junior - Web Full Stack Developper">
+        <meta name="keyword" content="d smart, web agency, full stack developper, kenfack djanzou junior, web agency cameroon, developpeur camerounais">
         <title>D Smart</title>
         <!-- <meta name="description" content="Page description. No longer than 155 characters." /> -->
 
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@Lafladeles">
-        <meta name="twitter:title" content="Home | La Flamme de l'Espoir">
-        <meta name="twitter:description" content="Home | La Flamme de l'Espoir">
-        <meta name="twitter:creator" content="@LaFlammeDeLEspoir">
+        <meta name="twitter:site" content="@djanzou120">
+        <meta name="twitter:title" content="Home | D Smart">
+        <meta name="twitter:description" content="Home | D Smart - Technology Start Up">
+        <meta name="twitter:creator" content="@djanzou120">
         <!-- Twitter Summary card images must be at least 120x120px -->
         <meta name="twitter:image"
               content="{{asset('assets/logo.png')}}">
-        <meta name="twitter:image:alt" content="Home | La Flamme de l'Espoir"/>
-        <meta name="twitter:domain" content="founderspledge.com">
+        <meta name="twitter:image:alt" content="Home | D Smart"/>
+        <meta name="twitter:domain" content="dsmart.dev">
 
         <!-- Open Graph data -->
-        <meta property="og:title" content="Home | La Flamme de l'Espoir"/>
+        <meta property="og:title" content="Home | D Smart"/>
         <!-- <meta property="og:type" content="article" /> -->
         <!-- <meta property="og:url" content="http://www.example.com/" /> -->
         <meta property="og:image"
@@ -40,7 +42,7 @@
               content="{{asset('assets/logo.png')}}"/>
         <meta property="og:image:width" content="200"/>
         <meta property="og:image:height" content="200"/>
-        <meta property="og:site_name" content="La Flamme de l'Espoir"/>
+        <meta property="og:site_name" content="D Smart"/>
         <meta property="fb:admins" content="172597779583559"/>
 
 
@@ -67,10 +69,7 @@
         </div>
         <!--Fin Loader-->
 
-        <div id="container-principal" class="">
-
-            {{--     Sweet Alert      --}}
-            @include('sweetalert::alert')
+        <div id="container-principal" class="d-none">
 
             {{--      Toogle Menu for Mobile      --}}
             @include('components.toggle-menu.main')
@@ -83,7 +82,7 @@
 
             <!-- Section Centré --------------->
 
-            <div id="fullpage" class="container-scroll">
+            <div id="main" class="scroll-container">
 
                 {{--     Home Section      --}}
                 @include('sections.home')
@@ -144,7 +143,6 @@
         <script src="{{asset('assets/js/index.js')}}"></script>
         <script type="text/javascript">
             $(document).ready(()=>{
-                $('#container-principal').addClass('d-none');
                 setTimeout(() => {
                     $('.loader').addClass('d-none');
                     $('#container-principal').removeClass('d-none');
@@ -163,5 +161,14 @@
 
         </script>
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF4C57TE0K"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-LF4C57TE0K');
+        </script>
     </body>
 </html>
