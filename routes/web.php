@@ -34,9 +34,15 @@ Route::post('/admin/forgot_password', 'App\Http\Controllers\Auth\ForgotPasswordC
 Route::middleware(['auth'])->group(function (){
     Route::get('/admin/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
 
-    Route::get('/logout', function (){
+    Route::get('admin/logout', function (){
         \Illuminate\Support\Facades\Auth::logout();
         return redirect()->route('login');
     })->name('logout');
+
+    Route::get('admin/contact', 'App\Http\Controllers\ContactController@index')->name('contact.index');
+
+    Route::get('admin/project', 'App\Http\Controllers\ProjectController@index')->name('project.index');
+    Route::get('admin/project/create', 'App\Http\Controllers\ProjectController@create')->name('project.create');
+    Route::post('admin/project/store', 'App\Http\Controllers\ProjectController@store')->name('project.store');
 });
 

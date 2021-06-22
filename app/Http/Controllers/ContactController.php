@@ -12,6 +12,11 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 class ContactController extends Controller
 {
+    public function index(){
+        $contacts = Contact::all();
+        return view('pages.admin.contact.index')->with(['contacts' => $contacts]);
+    }
+
     public function create(Request $request) {
         $validator = Validator::make($request->all((new Contact())->getFillable()), (new ContactRequest())->rules());
 
